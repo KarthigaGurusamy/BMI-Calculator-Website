@@ -36,10 +36,8 @@ body{
 }
 
 p{
-    display: inline-block;
-    align-items: right;
-    font-style: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    text-align: justify;
 }
 
 img{
@@ -85,5 +83,8 @@ h3{
 }
 
 .headeritems{
-    
+    display: inline-block;
+    align-items: right;
+    font-style: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
