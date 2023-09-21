@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body background="image.jpg">
+<div class = "header">
+    <div class = "options">
+        <p class="headeritems"><h3>Home Contact About Us</h3></p>
+            
+    </div>
+</div>
+<div>
+    <img src="https://img.freepik.com/premium-photo/scales-measuring-tape-yellow-floor-weight-loss-concept_185193-15559.jpg">
+    <centre>
+        
+        <p><h3>Body Mass Index (BMI) is a person's weight in kilograms (or pounds) divided by the square of height in meters (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.</h3></p>
+        <p class ="calculate"> CALCULATE YOUR BMI HERE!!!</p><br><br>
+    </centre>
+</div>
+<div>
+        <form name = "form" method = "post" onsubmit="return BMICalculation()" class="forms">
+            <label class ="lables">Enter Weight (in kilograms):</label><br><br>
+            <input type ="number" name="weight" class = "inputs"><br><br>
+            <label class ="lables">Enter Height (in centimeters):</label><br><br>
+            <input type = "number" name="height" class = "inputs"><br><br>
+            <input type="submit" class="button" value="Calculate">
+            <br><br><br><br><br>
+        </form>
+    
+</div>
+
+<div class = "footer">
+    <p><h3>Contact us via abc@gmail.com</h3></p>
+</div>
+<script>
+    function BMICalculation() {
+    var weight = document.form.weight.value;
+    var height = document.form.height.value;
+  
+    var heightnew = height/100;
+  
+    var value = weight / (heightnew * heightnew);
+  
+    if (value < 18.5) {
+      alert("You're Underweight");
+    } else if (value >= 18.5 && value <= 24.9) {
+      alert("You're Healthy");
+    } else if (value > 24.9 && value <= 29.9) {
+      alert("You're Over Weight");
+    } else {
+      alert("You're Obese");
+    }
+  }
+</script>
+</body>
+
+</html>
