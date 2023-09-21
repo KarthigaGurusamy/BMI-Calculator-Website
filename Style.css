@@ -1,90 +1,90 @@
-
-.header{
-    width: 100%;
-    position: fixed;
-    background: firebrick;
-    padding: 2px 0;
-    color: white;
+.header {
+  width: 100%;
+  position: fixed;
+  background: firebrick;
+  padding: 2px 0;
+  color: white;
 }
-.footer{
-    width: 100%;
-    position: fixed;
-    background: firebrick;
-    padding: 2px 0;
-    color: white;
-}
-
-body{
-    padding-top: 10%;
-    padding-bottom: 20%;
-    background-color: antiquewhite;
-    font-style: normal;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.footer {
+  width: 100%;
+  position: fixed;
+  background: firebrick;
+  padding: 2px 0;
+  color: white;
 }
 
-.options{
-    width: 100%;
-    margin: 0 auto;
+body {
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-color: antiquewhite;
+  font-style: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.header{
-    top:0;
+.options {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.footer{
-    bottom: 0;
+.header {
+  top: 0;
 }
 
-p{
-    align-items: center;
-    text-align: justify;
+.footer {
+  bottom: 0;
 }
 
-img{
-    background-repeat: no-repeat;
-    padding-left: 25%;
-    padding-right: 10%;
-    padding-top: 0%;
-    
+p {
+  align-items: center;
+  text-align: justify;
 }
 
-.forms{
-    text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    
+img {
+  background-repeat: no-repeat;
+  padding-left: 25%;
+  padding-right: 10%;
+  padding-top: 0%;
 }
 
-.inputs{
-    border: black;
-    border-radius: 10px;
+.forms {
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
-h3{
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
+.inputs {
+  border: black;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .button {
-    background-color: firebrick;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: firebrick;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.calculate{
-    text-align: center;
-    font-style: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.calculate {
+  text-align: center;
+  font-style: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.headeritems{
-    display: inline-block;
-    align-items: right;
-    font-style: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.headeritems {
+  display: inline-block;
+  align-items: right;
+  font-style: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
